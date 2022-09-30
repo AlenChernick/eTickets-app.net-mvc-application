@@ -13,7 +13,11 @@
     <SourceRoot Include="C:\Users\Alen\.nuget\packages\" />
     <SourceRoot Include="C:\Program Files\DevExpress 22.1\Components\Offline Packages\" />
   </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)microsoft.entityframeworkcore.design\5.0.6\build\netcoreapp3.0\Microsoft.EntityFrameworkCore.Design.props" Condition="Exists('$(NuGetPackageRoot)microsoft.entityframeworkcore.design\5.0.6\build\netcoreapp3.0\Microsoft.EntityFrameworkCore.Design.props')" />
+  </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgNewtonsoft_Json Condition=" '$(PkgNewtonsoft_Json)' == '' ">C:\Users\Alen\.nuget\packages\newtonsoft.json\10.0.1</PkgNewtonsoft_Json>
+    <PkgMicrosoft_EntityFrameworkCore_Tools Condition=" '$(PkgMicrosoft_EntityFrameworkCore_Tools)' == '' ">C:\Users\Alen\.nuget\packages\microsoft.entityframeworkcore.tools\5.0.6</PkgMicrosoft_EntityFrameworkCore_Tools>
   </PropertyGroup>
 </Project>
