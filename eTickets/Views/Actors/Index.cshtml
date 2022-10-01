@@ -1,0 +1,58 @@
+﻿@model IEnumerable<Actor> 
+
+@{
+    ViewData["Title"] = "List of Actors";
+}
+
+<style>
+    @@media only screen and (max-width : 960px) {
+        .btn {
+            margin-block: 0.2rem;
+        }
+        img {
+            width: 104%;
+        }
+
+        th {
+            font-size: 0.8rem;
+        }
+    }
+</style>
+
+
+<section class="row">
+    <div class="col-md-8 offset-md-2">
+        <table class="table">
+            <thead>
+                <tr class="text-center text-capitalize">
+                    <th>@Html.DisplayNameFor(model => model.ProfilePictureURL)</th>
+                    <th>@Html.DisplayNameFor(model => model.FullName)</th>
+                    <th>@Html.DisplayNameFor(model => model.Bio)</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody class="shadow-sm">
+                @foreach (var item in Model)
+                {
+                    <tr class="text-center">
+                        <td class="align-middle shadow-sm">
+                            <img class="rounded-circle shadow-sm img-fluid img-thumbnail" src="@item.ProfilePictureURL" alt="@item.FullName" style="max-width: 150px" />
+                        </td>
+                        <td class="align-middle text-capitalize shadow-sm">
+                            @Html.DisplayFor(modelItem => item.FullName)
+                        </td>
+                        <td class="align-middle text-capitalize shadow-sm">
+                            @Html.DisplayFor(modelItem => item.Bio)
+                        </td>
+                        <td class="align-middle text-center text-capitalize">
+                            <a class="btn btn-outline-primary mr-1 shadow-sm"><i class="bi bi-pencil-square mr-1"></i>Edit</a>
+                            <a class="btn btn-outline-info mr-1 shadow-sm"><i class="bi bi-eye mr-1"></i>Details</a>
+                            <a class="btn btn-outline-danger mr-1 shadow-sm"><i class="bi bi-trash mr-1"></i>Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</section>
+
