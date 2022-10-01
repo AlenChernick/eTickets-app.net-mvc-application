@@ -10,7 +10,7 @@ using eTickets.Data;
 namespace eTickets.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20220930224226_Inital")]
+    [Migration("20220930232105_Inital")]
     partial class Inital
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -54,7 +54,7 @@ namespace eTickets.Migrations
 
                     b.HasIndex("MovieId");
 
-                    b.ToTable("Actor_Movies");
+                    b.ToTable("Actors_Movies");
                 });
 
             modelBuilder.Entity("eTickets.Models.Cinema", b =>
@@ -94,7 +94,7 @@ namespace eTickets.Migrations
                     b.Property<DateTime>("EndDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("ImageUrl")
+                    b.Property<string>("ImageURL")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("MovieCategory")
