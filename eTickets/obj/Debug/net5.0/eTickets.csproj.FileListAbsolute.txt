@@ -54,11 +54,15 @@ C:\Users\Alen\source\repos\eTickets\eTickets\obj\Debug\net5.0\eTickets.TagHelper
 C:\Users\Alen\source\repos\eTickets\eTickets\obj\Debug\net5.0\eTickets.TagHelpers.output.cache
 C:\Users\Alen\source\repos\eTickets\eTickets\obj\Debug\net5.0\eTickets.RazorCoreGenerate.cache
 C:\Users\Alen\source\repos\eTickets\eTickets\obj\Debug\net5.0\Razor\Views\Actors\Create.cshtml.g.cs
+C:\Users\Alen\source\repos\eTickets\eTickets\obj\Debug\net5.0\Razor\Views\Actors\Delete.cshtml.g.cs
+C:\Users\Alen\source\repos\eTickets\eTickets\obj\Debug\net5.0\Razor\Views\Actors\Details.cshtml.g.cs
+C:\Users\Alen\source\repos\eTickets\eTickets\obj\Debug\net5.0\Razor\Views\Actors\Edit.cshtml.g.cs
 C:\Users\Alen\source\repos\eTickets\eTickets\obj\Debug\net5.0\Razor\Views\Actors\Index.cshtml.g.cs
 C:\Users\Alen\source\repos\eTickets\eTickets\obj\Debug\net5.0\Razor\Views\Cinemas\Index.cshtml.g.cs
 C:\Users\Alen\source\repos\eTickets\eTickets\obj\Debug\net5.0\Razor\Views\Movies\Index.cshtml.g.cs
 C:\Users\Alen\source\repos\eTickets\eTickets\obj\Debug\net5.0\Razor\Views\Producers\Index.cshtml.g.cs
 C:\Users\Alen\source\repos\eTickets\eTickets\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Alen\source\repos\eTickets\eTickets\obj\Debug\net5.0\Razor\Views\Shared\NotFound.cshtml.g.cs
 C:\Users\Alen\source\repos\eTickets\eTickets\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\Alen\source\repos\eTickets\eTickets\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\Alen\source\repos\eTickets\eTickets\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
@@ -72,7 +76,3 @@ C:\Users\Alen\source\repos\eTickets\eTickets\obj\Debug\net5.0\refint\eTickets.dl
 C:\Users\Alen\source\repos\eTickets\eTickets\obj\Debug\net5.0\eTickets.pdb
 C:\Users\Alen\source\repos\eTickets\eTickets\obj\Debug\net5.0\eTickets.genruntimeconfig.cache
 C:\Users\Alen\source\repos\eTickets\eTickets\obj\Debug\net5.0\ref\eTickets.dll
-C:\Users\Alen\source\repos\eTickets\eTickets\obj\Debug\net5.0\Razor\Views\Actors\Details.cshtml.g.cs
-C:\Users\Alen\source\repos\eTickets\eTickets\obj\Debug\net5.0\Razor\Views\Actors\Edit.cshtml.g.cs
-C:\Users\Alen\source\repos\eTickets\eTickets\obj\Debug\net5.0\Razor\Views\Actors\Delete.cshtml.g.cs
-C:\Users\Alen\source\repos\eTickets\eTickets\obj\Debug\net5.0\Razor\Views\Shared\NotFound.cshtml.g.cs

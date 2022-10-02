@@ -1,4 +1,5 @@
 using eTickets.Data;
+using eTickets.Data.Base;
 using eTickets.Data.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
