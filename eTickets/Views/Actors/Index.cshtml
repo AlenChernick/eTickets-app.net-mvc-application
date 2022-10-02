@@ -5,12 +5,13 @@
 }
 
 <style>
-    @@media only screen and (max-width : 960px) {
+    @@media only screen and (max-width : 680px) {
         .btn {
             margin-block: 0.2rem;
             width: 105%;
             padding: 3px 0;
         }
+
         img {
             width: 104%;
         }
@@ -20,7 +21,6 @@
         }
     }
 </style>
-
 
 <section class="row">
     <div class="col-md-8 offset-md-2">
@@ -47,9 +47,9 @@
                             @Html.DisplayFor(modelItem => item.Bio)
                         </td>
                         <td class="align-middle text-center text-capitalize">
-                            <a class="btn btn-outline-primary mr-1 shadow-sm"><i class="bi bi-pencil-square mr-1"></i>Edit</a>
-                            <a class="btn btn-outline-info mr-1 shadow-sm"><i class="bi bi-eye mr-1"></i>Details</a>
-                            <a class="btn btn-outline-danger mr-1 shadow-sm"><i class="bi bi-trash mr-1"></i>Delete</a>
+                            <a class="btn btn-outline-primary mr-1 shadow-sm" asp-action="Edit" asp-route-id="@item.Id"><i class="bi bi-pencil-square mr-1"></i>Edit</a>
+                            <a class="btn btn-outline-info mr-1 shadow-sm" asp-action="Details" asp-route-id="@item.Id"><i class="bi bi-eye mr-1"></i>Details</a>
+                            <a class="btn btn-outline-danger mr-1 shadow-sm" asp-action="Delete" asp-route-id="@item.Id"><i class="bi bi-trash mr-1"></i>Delete</a>
                         </td>
                     </tr>
                 }
