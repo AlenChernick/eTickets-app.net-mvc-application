@@ -4,14 +4,26 @@
     ViewData["Title"] = "Details for " + Model.FullName;
 }
 
+<style>
+    @@media only screen and (max-width : 680px) {
+        .main-contianer {
+            margin: 0;
+        }
+
+        .main-form {
+            margin: 0;
+        }
+    }
+</style>
+
 
 <section class="row text">
-    <div class="col-md-8 offset-2">
+    <div class="col-md-8 offset-2 main-contianer">
         <p>
-            <h1>Details for @Model.FullName</h1>
+            <h1 class="text-center mb-2">Details for @Model.FullName</h1>
         </p>
         <div class="row">
-            <div class="col-md-8 offset-2">
+            <div class="col-md-8 offset-2 main-form">
                     <div class="form-group text-center">
                     <img id="ProfilePicturePreview" class="w-25 border-info rounded-circle shadow-lg" />
                     </div>

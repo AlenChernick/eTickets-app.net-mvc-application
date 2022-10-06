@@ -57,7 +57,6 @@ C:\Users\Alen\source\repos\eTickets\eTickets\obj\Debug\net5.0\Razor\Views\Actors
 C:\Users\Alen\source\repos\eTickets\eTickets\obj\Debug\net5.0\Razor\Views\Actors\Delete.cshtml.g.cs
 C:\Users\Alen\source\repos\eTickets\eTickets\obj\Debug\net5.0\Razor\Views\Actors\Details.cshtml.g.cs
 C:\Users\Alen\source\repos\eTickets\eTickets\obj\Debug\net5.0\Razor\Views\Actors\Edit.cshtml.g.cs
-C:\Users\Alen\source\repos\eTickets\eTickets\obj\Debug\net5.0\Razor\Views\Actors\Index.cshtml.g.cs
 C:\Users\Alen\source\repos\eTickets\eTickets\obj\Debug\net5.0\Razor\Views\Cinemas\Index.cshtml.g.cs
 C:\Users\Alen\source\repos\eTickets\eTickets\obj\Debug\net5.0\Razor\Views\Movies\Index.cshtml.g.cs
 C:\Users\Alen\source\repos\eTickets\eTickets\obj\Debug\net5.0\Razor\Views\Producers\Index.cshtml.g.cs
@@ -76,3 +75,12 @@ C:\Users\Alen\source\repos\eTickets\eTickets\obj\Debug\net5.0\refint\eTickets.dl
 C:\Users\Alen\source\repos\eTickets\eTickets\obj\Debug\net5.0\eTickets.pdb
 C:\Users\Alen\source\repos\eTickets\eTickets\obj\Debug\net5.0\eTickets.genruntimeconfig.cache
 C:\Users\Alen\source\repos\eTickets\eTickets\obj\Debug\net5.0\ref\eTickets.dll
+C:\Users\Alen\source\repos\eTickets\eTickets\obj\Debug\net5.0\Razor\Views\Producers\Create.cshtml.g.cs
+C:\Users\Alen\source\repos\eTickets\eTickets\obj\Debug\net5.0\Razor\Views\Producers\Details.cshtml.g.cs
+C:\Users\Alen\source\repos\eTickets\eTickets\obj\Debug\net5.0\Razor\Views\Producers\Edit.cshtml.g.cs
+C:\Users\Alen\source\repos\eTickets\eTickets\obj\Debug\net5.0\Razor\Views\Producers\Delete.cshtml.g.cs
+C:\Users\Alen\source\repos\eTickets\eTickets\obj\Debug\net5.0\Razor\Views\Actors\Index.cshtml.g.cs
+C:\Users\Alen\source\repos\eTickets\eTickets\obj\Debug\net5.0\Razor\Views\Cinemas\Create.cshtml.g.cs
+C:\Users\Alen\source\repos\eTickets\eTickets\obj\Debug\net5.0\Razor\Views\Cinemas\Details.cshtml.g.cs
+C:\Users\Alen\source\repos\eTickets\eTickets\obj\Debug\net5.0\Razor\Views\Cinemas\Edit.cshtml.g.cs
+C:\Users\Alen\source\repos\eTickets\eTickets\obj\Debug\net5.0\Razor\Views\Cinemas\Delete.cshtml.g.cs

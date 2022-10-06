@@ -15,7 +15,7 @@ namespace eTickets.Models
 
         [Display(Name = "Full Name")]
         [Required(ErrorMessage = "Full name is required.")]
-        [StringLength(12, MinimumLength = 3, ErrorMessage = "Full Name must be between 3 and 12 chars")]
+        [StringLength(22, MinimumLength = 4, ErrorMessage = "Full Name must be between 4 and 22 chars")]
         public string FullName { get; set; }
 
         [Display(Name = "Biography")]
